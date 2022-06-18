@@ -6,7 +6,7 @@ Darwin is based on BSD. Because it is open-source, developers can actually be a 
 
 #### Architecture
 
-The foundation layer of the XNU kernel is based of many singular architectural components:
+The foundation layer of the XNU kernel is based on many singular architectural components:
 
 [INSERT ACHRCHI IMAGE HERE]
 
@@ -29,7 +29,7 @@ syscall support
 the BSD process model, including process IDs and signals
 FreeBSD kernel APIs
 many of the POSIX APIs
-kernel support for pthreads (POSIX threads)
+kernel support for threads (POSIX threads)
 
 #### Networking
 OS X networking takes advantage of BSD’s advanced networking capabilities to provide support for modern features, such as Network Address Translation (NAT) and firewalls. The networking component provides
@@ -48,10 +48,9 @@ UTF-8 (Unicode) support
 increased performance over previous versions of Mac OS.
 
 #### I/O Kit
-The I/O Kit provides a framework for simplified driver development, supporting many categories of devices.The I/O Kit features an object-oriented I/O architecture implemented in a restricted subset of C++. The I/O Kit framework is both modular and extensible. The I/O Kit component provides
+The I/O Kit provides a framework for simplified driver development, supporting many categories of devices. The I/O Kit features an object-oriented I/O architecture implemented in a restricted subset of C++. The I/O Kit framework is both modular and extensible. The I/O Kit component provides
 true plug and play
 dynamic device management
 dynamic (“on-demand”) loading of drivers
 power management for desktop systems as well as portables
 multiprocessor capabilities
-
