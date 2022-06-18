@@ -10,8 +10,6 @@ The foundation layer of the XNU kernel is based on many singular architectural c
 
 ![osxarchitecture](https://user-images.githubusercontent.com/67783955/174450164-1b4faf34-3d71-402f-a85a-0bffa8fd8cf3.gif)
 
-
-#### Mach
 Mach manages processor resources such as CPU usage and memory, handles scheduling, provides memory protection, and provides a messaging-centered infrastructure to the rest of the operating-system layers. The Mach component provides
 untyped interprocess communication (IPC)
 remote procedure calls (RPC)
@@ -55,3 +53,5 @@ dynamic device management
 dynamic (“on-demand”) loading of drivers
 power management for desktop systems as well as portables
 multiprocessor capabilities
+#### Kernel Extensions
+OSX provides a mechanism to dynamically load code into the kernel without needing to recompile, basically plug-ins.
