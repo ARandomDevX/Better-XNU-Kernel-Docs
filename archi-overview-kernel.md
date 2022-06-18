@@ -9,7 +9,7 @@ Darwin is based on BSD. Because it is open-source, developers can actually be a 
 The foundation layer of the XNU kernel is based on many singular architectural components:
 
 [osxarchitecture](https://user-images.githubusercontent.com/67783955/174450164-1b4faf34-3d71-402f-a85a-0bffa8fd8cf3.gif)
-.gif)
+
 
 #### Mach
 Mach manages processor resources such as CPU usage and memory, handles scheduling, provides memory protection, and provides a messaging-centered infrastructure to the rest of the operating-system layers. The Mach component provides
